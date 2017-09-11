@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<prop>
+    <mess> 
+       <!-- 切换身份页 -->
+       <property name="mine"       value="com.thetiger.ldd:id/main_tab_mine"></property> 
+       <property name="acc_set"    value="com.thetiger.ldd:id/my_account_setting_siv"></property>
+       <property name="idt_set"    value="com.thetiger.ldd:id/setting_identity_siv"></property>
+       <property name="hunter"     value="com.thetiger.ldd:id/hunter_rl"></property>
+       <!-- 猎头认证页1 -->
+       <property name="worktime"   value="com.thetiger.ldd:id/work_time_siv"></property>
+       <property name="exp_area"   value="com.thetiger.ldd:id/expertise_area_siv"></property>
+       <property name="exp_job"    value="com.thetiger.ldd:id/expertise_type_siv"></property>
+       <property name="java"       value="//android.view.View[@resource-id]/android.widget.TextView[@text='Java']"></property>
+       <property name="C++"        value="//android.view.View[@resource-id]/android.widget.TextView[@text='C++']"></property>
+       <!-- 猎头认证页2 -->
+        <property name="jobedt"    value="//android.widget.LinearLayout[@resource-id='com.thetiger.ldd:id/short_name_eiv']/android.widget.RelativeLayout/android.widget.EditText"></property>
+       <property name="mailedt"    value="//android.widget.LinearLayout[@resource-id='com.thetiger.ldd:id/email_eiv']/android.widget.RelativeLayout/android.widget.EditText"></property>
+       <property name="filephoto"  value="com.thetiger.ldd:id/file_photo_ly"></property>
+       <property name="photo"      value="com.thetiger.ldd:id/item_tv"></property>
+       <property name="pic"        value="//android.widget.GridView[@resource-id='com.android.documentsui:id/grid']/android.widget.FrameLayout/android.widget.LinearLayout"></property>
+       <property name="rem"        value="com.thetiger.ldd:id/main_tab_recommend"></property>
+       
+     
+    </mess>
+  </prop>

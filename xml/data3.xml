@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prop>
+    <mess>
+        <!-- 密码登录 -->
+       <property name="pw_login"     value="com.thetiger.ldd:id/pw_code_fl"></property>
+       <property name="hunter"     value="com.thetiger.ldd:id/hunter_rl"></property>
+       <property name="hunter"     value="com.thetiger.ldd:id/hunter_rl"></property>
+       <property name="hunter"     value="com.thetiger.ldd:id/hunter_rl"></property> 
+    </mess>
+</prop>
