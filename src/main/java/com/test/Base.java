@@ -6,6 +6,8 @@ import io.appium.java_client.android.AndroidDriver;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -276,17 +278,14 @@ public class Base {
 		cmdCtrl.stopServer("4723");
 		cmdCtrl.openHtml();
 	}
+	final int i=2;
 	@SuppressWarnings("rawtypes")
 	@BeforeClass
 	public void BeforeClass(){
 		DesiredCapabilities cap = new DesiredCapabilities();
-//		cap.setCapability("deviceName", "eddffa38");
-		 cap.setCapability("deviceName", "127.0.0.1:62001");
-		// cap.setCapability("deviceName", "HMK7N17327014230");
+		 cap.setCapability("deviceName", getInfo(i).get("deviceName"));
 		cap.setCapability("platformName", "Android");
-		 cap.setCapability("platformVersion", "4.4.2");
-		// cap.setCapability("platformVersion", "7.0");
-//		cap.setCapability("platformVersion", "5.1.1");
+		 cap.setCapability("platformVersion", getInfo(i).get("platformVersion"));
 		cap.setCapability("unicodeKeyboard", "true");
 		cap.setCapability("resetKeyBoard", "true");
 		cap.setCapability("appPackage", "com.thetiger.ldd");
@@ -300,6 +299,26 @@ public class Base {
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * 获取安卓设备信息
+	 */
+	public static  Map<String,String> getInfo(int i){
+		Map<String,String> maps=new HashMap<String, String>();
+		switch (i) {
+		case 1:
+			maps.put("deviceName", "127.0.0.1:62001");
+			maps.put("platformVersion","4.4.2");
+			break;
+        case 2:
+        	maps.put("deviceName", "eddffa38");
+			maps.put("platformVersion","5.1.1");
+			break;	
+		default:
+			break;
+		}
+		return maps;
+	}
+	
 	@AfterClass
 	public void afterClass(){
 		driver.quit();
