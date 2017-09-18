@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="29.230">
+           time="30.792">
   <properties />
   
   
-            <testcase name="case32" time="16.253" classname="com.Case.Verilogin" />
-                <testcase name="case33" time="12.977" classname="com.Case.Verilogin" />
+            <testcase name="case32" time="15.280" classname="com.Case.Verilogin" />
+                <testcase name="case33" time="15.512" classname="com.Case.Verilogin" />
       
 </testsuite>
