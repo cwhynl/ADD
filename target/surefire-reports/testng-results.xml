@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[在：2017-09-15 15:11:24:318执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
+      <![CDATA[在：2017-09-18 12:02:39:209执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
     </line>
     <line>
-      <![CDATA[在：2017-09-15 15:11:37:307执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
+      <![CDATA[在：2017-09-18 12:02:54:724执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="59772" started-at="2017-09-15T07:10:39Z" finished-at="2017-09-15T07:11:39Z">
+  <suite name="Suite" duration-ms="41809" started-at="2017-09-18T04:02:14Z" finished-at="2017-09-18T04:02:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59772" started-at="2017-09-15T07:10:39Z" finished-at="2017-09-15T07:11:39Z">
+    <test name="Test" duration-ms="41809" started-at="2017-09-18T04:02:14Z" finished-at="2017-09-18T04:02:56Z">
       <class name="com.Case.Verilogin">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="beforeSuite" is-config="true" duration-ms="68431" started-at="2017-09-15T15:09:31Z" finished-at="2017-09-15T15:10:39Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="beforeSuite" is-config="true" duration-ms="4807" started-at="2017-09-18T12:02:09Z" finished-at="2017-09-18T12:02:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="BeforeClass" is-config="true" duration-ms="28634" started-at="2017-09-15T15:10:39Z" finished-at="2017-09-15T15:11:08Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="BeforeClass" is-config="true" duration-ms="9202" started-at="2017-09-18T12:02:14Z" finished-at="2017-09-18T12:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="case32()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="case32" duration-ms="16253" started-at="2017-09-15T15:11:08Z" finished-at="2017-09-15T15:11:24Z">
+        <test-method status="PASS" signature="case32()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="case32" duration-ms="15280" started-at="2017-09-18T12:02:23Z" finished-at="2017-09-18T12:02:39Z">
           <reporter-output>
             <line>
-              <![CDATA[在：2017-09-15 15:11:24:318执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
+              <![CDATA[在：2017-09-18 12:02:39:209执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
             </line>
           </reporter-output>
         </test-method> <!-- case32 -->
-        <test-method status="PASS" signature="case33()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="case33" duration-ms="12977" started-at="2017-09-15T15:11:24Z" finished-at="2017-09-15T15:11:37Z">
+        <test-method status="PASS" signature="case33()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="case33" duration-ms="15512" started-at="2017-09-18T12:02:39Z" finished-at="2017-09-18T12:02:54Z">
           <reporter-output>
             <line>
-              <![CDATA[在：2017-09-15 15:11:37:307执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
+              <![CDATA[在：2017-09-18 12:02:54:724执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
             </line>
           </reporter-output>
         </test-method> <!-- case33 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="afterClass" is-config="true" duration-ms="1899" started-at="2017-09-15T15:11:37Z" finished-at="2017-09-15T15:11:39Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="afterClass" is-config="true" duration-ms="1805" started-at="2017-09-18T12:02:54Z" finished-at="2017-09-18T12:02:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="afterSuite" is-config="true" duration-ms="590" started-at="2017-09-15T15:11:39Z" finished-at="2017-09-15T15:11:39Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="afterSuite" is-config="true" duration-ms="42" started-at="2017-09-18T12:02:56Z" finished-at="2017-09-18T12:02:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

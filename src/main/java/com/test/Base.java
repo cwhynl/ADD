@@ -278,7 +278,7 @@ public class Base {
 		cmdCtrl.stopServer("4723");
 		cmdCtrl.openHtml();
 	}
-	final int i=2;
+	final static int i=2;
 	@SuppressWarnings("rawtypes")
 	@BeforeClass
 	public void BeforeClass(){
@@ -332,5 +332,9 @@ public class Base {
 		String pn = "137" + Integer.toString(i);
 		return pn;
 	}
-
+	public static void main(String[] args){
+		System.out.println( getInfo(i).get("deviceName"));
+		System.out.println(getInfo(i).get("platformVersion"));
+		
+	}
 }
