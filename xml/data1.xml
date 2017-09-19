@@ -44,9 +44,9 @@
 		<property name="skill"       value="com.thetiger.ldd:id/skill_labels_siv"></property>	
 		<property name="con_tv"      value="com.thetiger.ldd:id/confirm_tv"></property>	
 		<property name="comedt"      value="com.thetiger.ldd:id/edit_et"></property>	
-		<property name="UI"          value="//android.widget.TextView[@text='UI']"></property>	
-		<property name="UE"          value="//android.widget.TextView[@text='UE']"></property>	
-		<property name="GUI"         value="//android.widget.TextView[@text='GUI']"></property>	
+		<property name="Java"          value="//android.widget.TextView[@text='Java']"></property>	
+		<property name="PHP"          value="//android.widget.TextView[@text='PHP']"></property>	
+		<property name=".NET"         value="//android.widget.TextView[@text='.NET']"></property>	
 		<!-- 认证页3 -->
 		<property name="jobedt"      value="//android.widget.LinearLayout[@resource-id='com.thetiger.ldd:id/job_eiv']/android.widget.RelativeLayout/android.widget.EditText[1]"></property>	
 		<property name="start_time"  value="com.thetiger.ldd:id/start_time_siv"></property>	
