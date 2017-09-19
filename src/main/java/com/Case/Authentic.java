@@ -13,27 +13,18 @@ public class Authentic extends Logic {
 		name.printResult();
 	}
 
-	// @Test
-	// public void case2() {
-		// seeker_auth(phoneNum(), phoneNum());
-		// name.printResult();
-	// }
+     @Test
+     public void case2() {
+		seeker_auth(phoneNum(), phoneNum());
+		name.printResult();
+	 }
 
-	// @Test
-	// public void case3() {
-		// hunter_auth();
-		// name.printResult();
-	// }
+	  @Test
+	  public void case3() {
+		 hunter_auth();
+	     name.printResult();
+	  }
 
-//	@BeforeMethod
-//	public void beforeMethod() {
-//		System.out.println("测试开始了");
-//
-//	}
-//
-//	@AfterMethod
-//	public void afterMethod() {
-//		System.out.println("测试结束了");
-//	}
+	
 
 }
