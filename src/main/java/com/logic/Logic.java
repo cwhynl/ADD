@@ -66,9 +66,9 @@ public class Logic extends Base {
 		click(findById(Xml.read("city"))); // 选择所在城市
 		click(findById(Xml.read("conf"))); // 选择默认的按确定
 		click(findById(Xml.read("skill"))); // 选择技能标签
-		click(findByXpath(Xml.read("UI"))); // 选择UI
-		click(findByXpath(Xml.read("UE")));// 选择UE
-		click(findByXpath(Xml.read("GUI")));// 选择GUI
+		click(findByXpath(Xml.read("Java"))); // 选择UI
+		click(findByXpath(Xml.read("PHP")));// 选择UE
+		click(findByXpath(Xml.read(".NET")));// 选择GUI
 		click(findById(Xml.read("con_tv"))); // 按确定
 		click(findById(Xml.read("next"))); // 点击下一步
 	}
