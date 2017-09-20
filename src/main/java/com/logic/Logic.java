@@ -36,7 +36,7 @@ public class Logic extends Base {
 		step2();
 		step3();
 		step4();
-		assertTrue(isPlay(Xml.read("filter")), "找不到控件:" + Xml.read("filter")); // 判断
+		assertTrue(isPlay(Xml.read("chance")), "找不到控件:" + Xml.read("chance")); // 判断
 	}
 
 	/**

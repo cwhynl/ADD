@@ -66,7 +66,7 @@
 		<property name="city_com"      value="com.thetiger.ldd:id/city_select_confirm_tv"></property>
 		<property name="salary"        value="com.thetiger.ldd:id/annual_salary_perio_siv"></property>
 		<property name="finish"        value="com.thetiger.ldd:id/menu_common"></property>
-		<property name="filter"        value="com.thetiger.ldd:id/filter_v"></property>
+		<property name="chance"        value="com.thetiger.ldd:id/main_tab_recommend"></property>
 		<!-- 错误提示语 -->
 		<property name="snb_t"        value="com.thetiger.ldd:id/snackbar_text"></property>
    </mess>
