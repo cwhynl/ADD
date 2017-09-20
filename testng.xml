@@ -12,6 +12,5 @@
        <class name="com.Case.Login" /> 
        <class name="com.Case.Verilogin"/>
     </classes>
-
   </test> <!-- Test -->
 </suite> <!-- Suite -->
