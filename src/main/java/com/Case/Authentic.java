@@ -19,7 +19,7 @@ public class Authentic extends Logic {
 		name.printResult();
 	 }
 
-//	  @Test
+//	  @Test   
 	  public void case3() {
 		 hunter_auth();
 	     name.printResult();
