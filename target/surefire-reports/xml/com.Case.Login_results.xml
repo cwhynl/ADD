@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="406.766">
+           time="411.165">
   <properties />
   
   
-            <testcase name="case27" time="21.716" classname="com.Case.Login" />
-                <testcase name="case14" time="21.000" classname="com.Case.Login" />
-                <testcase name="case31" time="25.326" classname="com.Case.Login" />
-                <testcase name="case29" time="17.271" classname="com.Case.Login" />
-                <testcase name="case12" time="20.415" classname="com.Case.Login" />
-                <testcase name="case18" time="20.188" classname="com.Case.Login" />
-                <testcase name="case11" time="23.147" classname="com.Case.Login" />
-                <testcase name="case23" time="25.777" classname="com.Case.Login" />
-                <testcase name="case17" time="18.887" classname="com.Case.Login" />
-                <testcase name="case26" time="14.467" classname="com.Case.Login" />
-                <testcase name="case21" time="21.243" classname="com.Case.Login" />
-                <testcase name="case19" time="23.157" classname="com.Case.Login" />
-                <testcase name="case30" time="15.876" classname="com.Case.Login" />
-                <testcase name="case28" time="22.608" classname="com.Case.Login" />
-                <testcase name="case13" time="19.847" classname="com.Case.Login" />
-                <testcase name="case24" time="16.499" classname="com.Case.Login" />
-                <testcase name="case22" time="24.725" classname="com.Case.Login" />
-                <testcase name="case15" time="18.852" classname="com.Case.Login" />
-                <testcase name="case16" time="19.232" classname="com.Case.Login" />
-                <testcase name="case25" time="16.533" classname="com.Case.Login" />
+            <testcase name="case29" time="17.117" classname="com.Case.Login" />
+                <testcase name="case24" time="16.244" classname="com.Case.Login" />
+                <testcase name="case28" time="22.975" classname="com.Case.Login" />
+                <testcase name="case26" time="14.398" classname="com.Case.Login" />
+                <testcase name="case27" time="23.246" classname="com.Case.Login" />
+                <testcase name="case11" time="22.227" classname="com.Case.Login" />
+                <testcase name="case15" time="19.629" classname="com.Case.Login" />
+                <testcase name="case23" time="26.556" classname="com.Case.Login" />
+                <testcase name="case17" time="19.601" classname="com.Case.Login" />
+                <testcase name="case19" time="22.564" classname="com.Case.Login" />
+                <testcase name="case25" time="17.480" classname="com.Case.Login" />
+                <testcase name="case12" time="20.719" classname="com.Case.Login" />
+                <testcase name="case18" time="21.358" classname="com.Case.Login" />
+                <testcase name="case13" time="19.828" classname="com.Case.Login" />
+                <testcase name="case22" time="24.627" classname="com.Case.Login" />
+                <testcase name="case21" time="21.009" classname="com.Case.Login" />
+                <testcase name="case14" time="21.323" classname="com.Case.Login" />
+                <testcase name="case16" time="18.952" classname="com.Case.Login" />
+                <testcase name="case31" time="25.276" classname="com.Case.Login" />
+                <testcase name="case30" time="16.036" classname="com.Case.Login" />
       
 </testsuite>

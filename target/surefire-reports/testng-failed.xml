@@ -12,29 +12,4 @@
       <class name="com.Case.Verilogin"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="com.Case.Verilogin">
-        <methods>
-          <include name="case42"/>
-          <include name="BeforeClass"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.Case.Verilogin -->
-      <class name="com.Case.Authentic">
-        <methods>
-          <include name="BeforeClass"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- com.Case.Authentic -->
-      <class name="com.Case.Login">
-        <methods>
-          <include name="BeforeClass"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.Case.Login -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

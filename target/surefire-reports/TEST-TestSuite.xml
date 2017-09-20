@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="803.717" tests="34" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="792.636" tests="34" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\java\jdk\jre\bin"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7093260867287707058.tmp"/>
+    <property name="classworlds.conf" value="D:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6040457309391339377.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="D:\java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/java/jdk/bin/../jre/bin/server;D:/java/jdk/bin/../jre/bin;D:/java/jdk/bin/../jre/lib/amd64;D:\java\jdk\bin;D:\java\jdk\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\java\sdk\SDK\tools;D:\java\sdk\SDK\platform-tools;E:\nodejs\;D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\bin;D:\maven\apache-maven-3.5.0\bin;E:\moniqi\Nox\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;D:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,42 +60,38 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="case1" classname="com.Case.Authentic" time="20.267"/>
-  <testcase name="case2" classname="com.Case.Authentic" time="102.489"/>
-  <testcase name="case3" classname="com.Case.Authentic" time="71.642"/>
-  <testcase name="case11" classname="com.Case.Login" time="23.159"/>
-  <testcase name="case12" classname="com.Case.Login" time="20.404"/>
-  <testcase name="case13" classname="com.Case.Login" time="19.85"/>
-  <testcase name="case14" classname="com.Case.Login" time="20.998"/>
-  <testcase name="case15" classname="com.Case.Login" time="18.853"/>
-  <testcase name="case16" classname="com.Case.Login" time="19.235"/>
-  <testcase name="case17" classname="com.Case.Login" time="18.882"/>
-  <testcase name="case18" classname="com.Case.Login" time="20.191"/>
-  <testcase name="case19" classname="com.Case.Login" time="23.154"/>
-  <testcase name="case21" classname="com.Case.Login" time="21.244"/>
-  <testcase name="case22" classname="com.Case.Login" time="24.728"/>
-  <testcase name="case23" classname="com.Case.Login" time="25.78"/>
-  <testcase name="case24" classname="com.Case.Login" time="16.5"/>
-  <testcase name="case25" classname="com.Case.Login" time="16.53"/>
-  <testcase name="case26" classname="com.Case.Login" time="14.471"/>
-  <testcase name="case27" classname="com.Case.Login" time="21.713"/>
-  <testcase name="case28" classname="com.Case.Login" time="22.613"/>
-  <testcase name="case29" classname="com.Case.Login" time="17.277"/>
-  <testcase name="case30" classname="com.Case.Login" time="15.866"/>
-  <testcase name="case31" classname="com.Case.Login" time="25.325"/>
-  <testcase name="case32" classname="com.Case.Verilogin" time="14.743"/>
-  <testcase name="case33" classname="com.Case.Verilogin" time="13.854"/>
-  <testcase name="case34" classname="com.Case.Verilogin" time="13.749"/>
-  <testcase name="case35" classname="com.Case.Verilogin" time="13.619"/>
-  <testcase name="case36" classname="com.Case.Verilogin" time="12.843"/>
-  <testcase name="case37" classname="com.Case.Verilogin" time="12.782"/>
-  <testcase name="case38" classname="com.Case.Verilogin" time="17.79"/>
-  <testcase name="case39" classname="com.Case.Verilogin" time="18.625"/>
-  <testcase name="case40" classname="com.Case.Verilogin" time="11.125"/>
-  <testcase name="case41" classname="com.Case.Verilogin" time="12.851"/>
-  <testcase name="case42" classname="com.Case.Verilogin" time="25.639">
-    <failure message="找不到控件:null expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 找不到控件:null expected [true] but found [false]
-	at com.Case.Verilogin.case42(Verilogin.java:62)
-</failure>
-  </testcase>
+  <testcase name="case1" classname="com.Case.Authentic" time="20.687"/>
+  <testcase name="case2" classname="com.Case.Authentic" time="102.084"/>
+  <testcase name="case3" classname="com.Case.Authentic" time="59.328"/>
+  <testcase name="case11" classname="com.Case.Login" time="22.234"/>
+  <testcase name="case12" classname="com.Case.Login" time="20.709"/>
+  <testcase name="case13" classname="com.Case.Login" time="19.833"/>
+  <testcase name="case14" classname="com.Case.Login" time="21.328"/>
+  <testcase name="case15" classname="com.Case.Login" time="19.623"/>
+  <testcase name="case16" classname="com.Case.Login" time="18.954"/>
+  <testcase name="case17" classname="com.Case.Login" time="19.598"/>
+  <testcase name="case18" classname="com.Case.Login" time="21.361"/>
+  <testcase name="case19" classname="com.Case.Login" time="22.562"/>
+  <testcase name="case21" classname="com.Case.Login" time="21.009"/>
+  <testcase name="case22" classname="com.Case.Login" time="24.631"/>
+  <testcase name="case23" classname="com.Case.Login" time="26.552"/>
+  <testcase name="case24" classname="com.Case.Login" time="16.247"/>
+  <testcase name="case25" classname="com.Case.Login" time="17.477"/>
+  <testcase name="case26" classname="com.Case.Login" time="14.407"/>
+  <testcase name="case27" classname="com.Case.Login" time="23.236"/>
+  <testcase name="case28" classname="com.Case.Login" time="22.974"/>
+  <testcase name="case29" classname="com.Case.Login" time="17.122"/>
+  <testcase name="case30" classname="com.Case.Login" time="16.032"/>
+  <testcase name="case31" classname="com.Case.Login" time="25.277"/>
+  <testcase name="case32" classname="com.Case.Verilogin" time="14.892"/>
+  <testcase name="case33" classname="com.Case.Verilogin" time="13.154"/>
+  <testcase name="case34" classname="com.Case.Verilogin" time="13.741"/>
+  <testcase name="case35" classname="com.Case.Verilogin" time="14.311"/>
+  <testcase name="case36" classname="com.Case.Verilogin" time="13.123"/>
+  <testcase name="case37" classname="com.Case.Verilogin" time="12.242"/>
+  <testcase name="case38" classname="com.Case.Verilogin" time="17.73"/>
+  <testcase name="case39" classname="com.Case.Verilogin" time="18.225"/>
+  <testcase name="case40" classname="com.Case.Verilogin" time="10.964"/>
+  <testcase name="case41" classname="com.Case.Verilogin" time="12.147"/>
+  <testcase name="case42" classname="com.Case.Verilogin" time="26.675"/>
 </testsuite>
