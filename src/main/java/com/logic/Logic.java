@@ -118,7 +118,7 @@ public class Logic extends Base {
 	public static void hunter_auth() {
 		// 判断是不是在职位首页，如果不是返回到身份选择页
 		while (true) {
-			if (isPlay(Xml.read("filter"))) {
+			if (isPlay(Xml.read("chance"))) {
 				click(findById(Xml.read2("mine"))); // 点击我的
 				click(findById(Xml.read2("acc_set"))); // 点击账号设置
 				click(findById(Xml.read2("idt_set"))); // 点击切换身份

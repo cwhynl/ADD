@@ -102,7 +102,7 @@ public class login_Logic extends Logic1 {
 		findById(Xml.read("code_edt")).clear();
 		Input(findById(Xml.read("code_edt")), "1111"); // 输入验证码
 		click(findById(Xml.read("loginbtn"))); // 点击登录
-		assertTrue(isPlay(Xml.read("filter")), "找不到控件:" + Xml.read("filter")); // 判断
+		assertTrue(isPlay(Xml.read("chance")), "找不到控件:" + Xml.read("chance")); // 判断
 	}
 	/**
 	 * 验证码框内字符为1111就不输入，否则输入

@@ -1,49 +1,490 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="34" passed="33">
   <reporter-output>
     <line>
-      <![CDATA[在：2017-09-18 12:02:39:209执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
+      <![CDATA[在：2017-09-20 11:17:38:528执行用例：随机输入手机号码正常注册登录--->执行成功]]>
     </line>
     <line>
-      <![CDATA[在：2017-09-18 12:02:54:724执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
+      <![CDATA[在：2017-09-20 11:17:40:079等了1秒]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:17:46:341输入姓名]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:17:51:527输入姓名]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:18:20:864输入公司名]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:18:27:404输入工作名]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:18:44:222输入工作内容]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:19:20:999执行用例：新账号求职者四步正常认证--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:19:28:122james]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:19:48:900猎头公司名]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:19:54:733猎头职位]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:20:15:854猎头邮箱]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:20:32:652执行用例：新账号猎头认证两部--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:21:06:515执行用例：输入手机号码不输入密码，验证登录按钮正常置灰--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:21:26:932执行用例：输入手机号码输入密码小于6位，验证登录按钮正常置灰--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:21:46:779执行用例：输入手机号码输入密码大于6位，验证登录按钮正常置灰--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:22:07:780执行用例：输入手机号码输入小于11位和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:22:26:635执行用例：输入手机号码输入11位带字母、特殊字符和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:22:45:866执行用例：输入手机号码输入11位非1开头和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:23:04:753执行用例：输入手机号码输入11位1开头不符合正则和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:23:23:923等了1秒]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:23:24:941执行用例：输入正常的手机号码，错误的密码点击登录--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:23:48:100执行用例：输入正确的手机号码，长度为21位的密码，验证不能超过20位--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:24:09:342执行用例：输入密码后点击眼睛能看见密码，验证再次点击不能看见--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:24:34:069执行用例：不能看见密码的情况下输入正确的帐号密码点击登录，验证正常登录--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:24:59:847执行用例：能看见密码的情况下输入密码点击登录，验证正常登录--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:25:16:346执行用例：输入手机号码未注册点击获取验证码验证弹出提示手机号码未注册--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:25:32:880执行用例：输入手机号码已注册点击获取验证码验证弹出提示获取成功--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:25:47:346执行用例：验证正常输入进行重置密码--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:26:09:065执行用例：重置密码后用重置的密码进行一次的登录--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:26:31:673执行用例：输入手机号码已注册点击获取验证码--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:26:48:945执行用例：输入手机号码未注册点击注册提示获取成功--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:27:04:821执行用例：输入正常的帐号密码进行注册--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:27:30:147执行用例：注册后用该帐号密码进行登录--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:27:54:830执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:28:08:685执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:28:22:432执行用例：输入手机号为非1开头的11位手机号提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:28:36:052执行用例：输入手机号为1开头11位非法号码提示手机号格式不正确--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:28:48:895执行用例：输入12位手机号码，验证只能输入11位--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:29:01:675执行用例：验证正常输入手机号登录按钮置灰--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:29:19:469执行用例：输入手机号与验证码后登录按钮点亮--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:29:38:091执行用例：输入正常的手机号码，不获取验证码点击登录--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:29:49:218执行用例：正常输入手机号码点击获取验证码提示获取短信验证码成功--->执行成功]]>
+    </line>
+    <line>
+      <![CDATA[在：2017-09-20 11:30:02:068执行用例：输入正常的手机号码获取验证码，输入不正确的验证码点击登录提示验证码不正确--->执行成功]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="41809" started-at="2017-09-18T04:02:14Z" finished-at="2017-09-18T04:02:56Z">
+  <suite name="Suite" duration-ms="802683" started-at="2017-09-20T03:17:06Z" finished-at="2017-09-20T03:30:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="41809" started-at="2017-09-18T04:02:14Z" finished-at="2017-09-18T04:02:56Z">
+    <test name="Test" duration-ms="802683" started-at="2017-09-20T03:17:06Z" finished-at="2017-09-20T03:30:29Z">
       <class name="com.Case.Verilogin">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="beforeSuite" is-config="true" duration-ms="4807" started-at="2017-09-18T12:02:09Z" finished-at="2017-09-18T12:02:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="BeforeClass" is-config="true" duration-ms="9202" started-at="2017-09-18T12:02:14Z" finished-at="2017-09-18T12:02:23Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="BeforeClass" is-config="true" duration-ms="8258" started-at="2017-09-20T11:27:31Z" finished-at="2017-09-20T11:27:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="case32()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="case32" duration-ms="15280" started-at="2017-09-18T12:02:23Z" finished-at="2017-09-18T12:02:39Z">
+        <test-method status="PASS" signature="case32()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case32" duration-ms="14744" started-at="2017-09-20T11:27:40Z" finished-at="2017-09-20T11:27:54Z">
           <reporter-output>
             <line>
-              <![CDATA[在：2017-09-18 12:02:39:209执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
+              <![CDATA[在：2017-09-20 11:27:54:830执行用例：输入为空的手机号码点击获取验证码提示手机号还没有填写--->执行成功]]>
             </line>
           </reporter-output>
         </test-method> <!-- case32 -->
-        <test-method status="PASS" signature="case33()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="case33" duration-ms="15512" started-at="2017-09-18T12:02:39Z" finished-at="2017-09-18T12:02:54Z">
+        <test-method status="PASS" signature="case33()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case33" duration-ms="13854" started-at="2017-09-20T11:27:54Z" finished-at="2017-09-20T11:28:08Z">
           <reporter-output>
             <line>
-              <![CDATA[在：2017-09-18 12:02:54:724执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
+              <![CDATA[在：2017-09-20 11:28:08:685执行用例：输入手机号码不足11位点击获取验证码提示手机号格式不正确--->执行成功]]>
             </line>
           </reporter-output>
         </test-method> <!-- case33 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="afterClass" is-config="true" duration-ms="1805" started-at="2017-09-18T12:02:54Z" finished-at="2017-09-18T12:02:56Z">
+        <test-method status="PASS" signature="case34()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case34" duration-ms="13747" started-at="2017-09-20T11:28:08Z" finished-at="2017-09-20T11:28:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:28:22:432执行用例：输入手机号为非1开头的11位手机号提示手机号格式不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case34 -->
+        <test-method status="PASS" signature="case35()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case35" duration-ms="13620" started-at="2017-09-20T11:28:22Z" finished-at="2017-09-20T11:28:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:28:36:052执行用例：输入手机号为1开头11位非法号码提示手机号格式不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case35 -->
+        <test-method status="PASS" signature="case36()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case36" duration-ms="12842" started-at="2017-09-20T11:28:36Z" finished-at="2017-09-20T11:28:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:28:48:895执行用例：输入12位手机号码，验证只能输入11位--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case36 -->
+        <test-method status="PASS" signature="case37()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case37" duration-ms="12780" started-at="2017-09-20T11:28:48Z" finished-at="2017-09-20T11:29:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:29:01:675执行用例：验证正常输入手机号登录按钮置灰--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case37 -->
+        <test-method status="PASS" signature="case38()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case38" duration-ms="17792" started-at="2017-09-20T11:29:01Z" finished-at="2017-09-20T11:29:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:29:19:469执行用例：输入手机号与验证码后登录按钮点亮--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case38 -->
+        <test-method status="PASS" signature="case39()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case39" duration-ms="18622" started-at="2017-09-20T11:29:19Z" finished-at="2017-09-20T11:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:29:38:091执行用例：输入正常的手机号码，不获取验证码点击登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case39 -->
+        <test-method status="PASS" signature="case40()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case40" duration-ms="11126" started-at="2017-09-20T11:29:38Z" finished-at="2017-09-20T11:29:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:29:49:218执行用例：正常输入手机号码点击获取验证码提示获取短信验证码成功--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case40 -->
+        <test-method status="PASS" signature="case41()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case41" duration-ms="12849" started-at="2017-09-20T11:29:49Z" finished-at="2017-09-20T11:30:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:30:02:068执行用例：输入正常的手机号码获取验证码，输入不正确的验证码点击登录提示验证码不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case41 -->
+        <test-method status="FAIL" signature="case42()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="case42" duration-ms="25608" started-at="2017-09-20T11:30:02Z" finished-at="2017-09-20T11:30:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[找不到控件:null expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 找不到控件:null expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.logic.login_Logic.oldlogin(login_Logic.java:105)
+	at com.Case.Verilogin.case42(Verilogin.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case42 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Verilogin@3a883ce7]" name="afterClass" is-config="true" duration-ms="1609" started-at="2017-09-20T11:30:27Z" finished-at="2017-09-20T11:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Case.Verilogin@47ef968d]" name="afterSuite" is-config="true" duration-ms="42" started-at="2017-09-18T12:02:56Z" finished-at="2017-09-18T12:02:56Z">
+      </class> <!-- com.Case.Verilogin -->
+      <class name="com.Case.Authentic">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Case.Authentic@49fc609f]" name="beforeSuite" is-config="true" duration-ms="62" started-at="2017-09-20T11:17:06Z" finished-at="2017-09-20T11:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Authentic@49fc609f]" name="BeforeClass" is-config="true" duration-ms="11633" started-at="2017-09-20T11:17:06Z" finished-at="2017-09-20T11:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="case1()[pri:0, instance:com.Case.Authentic@49fc609f]" name="case1" duration-ms="20265" started-at="2017-09-20T11:17:18Z" finished-at="2017-09-20T11:17:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:17:38:528执行用例：随机输入手机号码正常注册登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case1 -->
+        <test-method status="PASS" signature="case2()[pri:0, instance:com.Case.Authentic@49fc609f]" name="case2" duration-ms="102470" started-at="2017-09-20T11:17:38Z" finished-at="2017-09-20T11:19:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:17:40:079等了1秒]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:17:46:341输入姓名]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:17:51:527输入姓名]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:18:20:864输入公司名]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:18:27:404输入工作名]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:18:44:222输入工作内容]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:19:20:999执行用例：新账号求职者四步正常认证--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case2 -->
+        <test-method status="PASS" signature="case3()[pri:0, instance:com.Case.Authentic@49fc609f]" name="case3" duration-ms="71653" started-at="2017-09-20T11:19:21Z" finished-at="2017-09-20T11:20:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:19:28:122james]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:19:48:900猎头公司名]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:19:54:733猎头职位]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:20:15:854猎头邮箱]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:20:32:652执行用例：新账号猎头认证两部--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case3 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Authentic@49fc609f]" name="afterClass" is-config="true" duration-ms="1998" started-at="2017-09-20T11:20:32Z" finished-at="2017-09-20T11:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Case.Authentic@49fc609f]" name="afterSuite" is-config="true" duration-ms="237" started-at="2017-09-20T11:30:29Z" finished-at="2017-09-20T11:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.Case.Verilogin -->
+      </class> <!-- com.Case.Authentic -->
+      <class name="com.Case.Login">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Login@cd2dae5]" name="BeforeClass" is-config="true" duration-ms="8714" started-at="2017-09-20T11:20:34Z" finished-at="2017-09-20T11:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="case11()[pri:0, instance:com.Case.Login@cd2dae5]" name="case11" duration-ms="23147" started-at="2017-09-20T11:20:43Z" finished-at="2017-09-20T11:21:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:21:06:515执行用例：输入手机号码不输入密码，验证登录按钮正常置灰--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case11 -->
+        <test-method status="PASS" signature="case12()[pri:0, instance:com.Case.Login@cd2dae5]" name="case12" duration-ms="20415" started-at="2017-09-20T11:21:06Z" finished-at="2017-09-20T11:21:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:21:26:932执行用例：输入手机号码输入密码小于6位，验证登录按钮正常置灰--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case12 -->
+        <test-method status="PASS" signature="case13()[pri:0, instance:com.Case.Login@cd2dae5]" name="case13" duration-ms="19847" started-at="2017-09-20T11:21:26Z" finished-at="2017-09-20T11:21:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:21:46:779执行用例：输入手机号码输入密码大于6位，验证登录按钮正常置灰--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case13 -->
+        <test-method status="PASS" signature="case14()[pri:0, instance:com.Case.Login@cd2dae5]" name="case14" duration-ms="21000" started-at="2017-09-20T11:21:46Z" finished-at="2017-09-20T11:22:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:22:07:780执行用例：输入手机号码输入小于11位和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case14 -->
+        <test-method status="PASS" signature="case15()[pri:0, instance:com.Case.Login@cd2dae5]" name="case15" duration-ms="18852" started-at="2017-09-20T11:22:07Z" finished-at="2017-09-20T11:22:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:22:26:635执行用例：输入手机号码输入11位带字母、特殊字符和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case15 -->
+        <test-method status="PASS" signature="case16()[pri:0, instance:com.Case.Login@cd2dae5]" name="case16" duration-ms="19232" started-at="2017-09-20T11:22:26Z" finished-at="2017-09-20T11:22:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:22:45:866执行用例：输入手机号码输入11位非1开头和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case16 -->
+        <test-method status="PASS" signature="case17()[pri:0, instance:com.Case.Login@cd2dae5]" name="case17" duration-ms="18887" started-at="2017-09-20T11:22:45Z" finished-at="2017-09-20T11:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:23:04:753执行用例：输入手机号码输入11位1开头不符合正则和密码，验证点击登录提示手机号格式不正确--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case17 -->
+        <test-method status="PASS" signature="case18()[pri:0, instance:com.Case.Login@cd2dae5]" name="case18" duration-ms="20188" started-at="2017-09-20T11:23:04Z" finished-at="2017-09-20T11:23:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:23:23:923等了1秒]]>
+            </line>
+            <line>
+              <![CDATA[在：2017-09-20 11:23:24:941执行用例：输入正常的手机号码，错误的密码点击登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case18 -->
+        <test-method status="PASS" signature="case19()[pri:0, instance:com.Case.Login@cd2dae5]" name="case19" duration-ms="23157" started-at="2017-09-20T11:23:24Z" finished-at="2017-09-20T11:23:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:23:48:100执行用例：输入正确的手机号码，长度为21位的密码，验证不能超过20位--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case19 -->
+        <test-method status="PASS" signature="case21()[pri:0, instance:com.Case.Login@cd2dae5]" name="case21" duration-ms="21243" started-at="2017-09-20T11:23:48Z" finished-at="2017-09-20T11:24:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:24:09:342执行用例：输入密码后点击眼睛能看见密码，验证再次点击不能看见--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case21 -->
+        <test-method status="PASS" signature="case22()[pri:0, instance:com.Case.Login@cd2dae5]" name="case22" duration-ms="24725" started-at="2017-09-20T11:24:09Z" finished-at="2017-09-20T11:24:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:24:34:069执行用例：不能看见密码的情况下输入正确的帐号密码点击登录，验证正常登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case22 -->
+        <test-method status="PASS" signature="case23()[pri:0, instance:com.Case.Login@cd2dae5]" name="case23" duration-ms="25777" started-at="2017-09-20T11:24:34Z" finished-at="2017-09-20T11:24:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:24:59:847执行用例：能看见密码的情况下输入密码点击登录，验证正常登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case23 -->
+        <test-method status="PASS" signature="case24()[pri:0, instance:com.Case.Login@cd2dae5]" name="case24" duration-ms="16499" started-at="2017-09-20T11:24:59Z" finished-at="2017-09-20T11:25:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:25:16:346执行用例：输入手机号码未注册点击获取验证码验证弹出提示手机号码未注册--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case24 -->
+        <test-method status="PASS" signature="case25()[pri:0, instance:com.Case.Login@cd2dae5]" name="case25" duration-ms="16533" started-at="2017-09-20T11:25:16Z" finished-at="2017-09-20T11:25:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:25:32:880执行用例：输入手机号码已注册点击获取验证码验证弹出提示获取成功--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case25 -->
+        <test-method status="PASS" signature="case26()[pri:0, instance:com.Case.Login@cd2dae5]" name="case26" duration-ms="14467" started-at="2017-09-20T11:25:32Z" finished-at="2017-09-20T11:25:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:25:47:346执行用例：验证正常输入进行重置密码--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case26 -->
+        <test-method status="PASS" signature="case27()[pri:0, instance:com.Case.Login@cd2dae5]" name="case27" duration-ms="21716" started-at="2017-09-20T11:25:47Z" finished-at="2017-09-20T11:26:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:26:09:065执行用例：重置密码后用重置的密码进行一次的登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case27 -->
+        <test-method status="PASS" signature="case28()[pri:0, instance:com.Case.Login@cd2dae5]" name="case28" duration-ms="22608" started-at="2017-09-20T11:26:09Z" finished-at="2017-09-20T11:26:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:26:31:673执行用例：输入手机号码已注册点击获取验证码--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case28 -->
+        <test-method status="PASS" signature="case29()[pri:0, instance:com.Case.Login@cd2dae5]" name="case29" duration-ms="17271" started-at="2017-09-20T11:26:31Z" finished-at="2017-09-20T11:26:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:26:48:945执行用例：输入手机号码未注册点击注册提示获取成功--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case29 -->
+        <test-method status="PASS" signature="case30()[pri:0, instance:com.Case.Login@cd2dae5]" name="case30" duration-ms="15876" started-at="2017-09-20T11:26:48Z" finished-at="2017-09-20T11:27:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:27:04:821执行用例：输入正常的帐号密码进行注册--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case30 -->
+        <test-method status="PASS" signature="case31()[pri:0, instance:com.Case.Login@cd2dae5]" name="case31" duration-ms="25326" started-at="2017-09-20T11:27:04Z" finished-at="2017-09-20T11:27:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[在：2017-09-20 11:27:30:147执行用例：注册后用该帐号密码进行登录--->执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case31 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Login@cd2dae5]" name="afterClass" is-config="true" duration-ms="1680" started-at="2017-09-20T11:27:30Z" finished-at="2017-09-20T11:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Case.Login -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
