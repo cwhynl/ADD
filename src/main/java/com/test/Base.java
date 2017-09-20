@@ -214,7 +214,7 @@ public class Base {
 			return el;
 		} else {
 			print("控件：" + id + "不存在");
-			assertTrue(false, "等了3秒还找不到控件");
+			assertTrue(false);
 			return null;
 		}
 	}

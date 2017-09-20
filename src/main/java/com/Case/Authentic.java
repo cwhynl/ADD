@@ -13,13 +13,13 @@ public class Authentic extends Logic {
 		name.printResult();
 	}
 
-     @Test
+//     @Test
      public void case2() {
 		seeker_auth(phoneNum(), phoneNum());
 		name.printResult();
 	 }
 
-	  @Test
+//	  @Test
 	  public void case3() {
 		 hunter_auth();
 	     name.printResult();
