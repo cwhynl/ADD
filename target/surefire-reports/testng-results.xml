@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[在：2017-09-20 16:03:15:738执行用例：随机输入手机号码正常注册登录--->执行成功]]>
+      <![CDATA[在：2017-09-30 11:33:40:959执行用例：随机输入手机号码正常注册登录--->执行成功]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="31126" started-at="2017-09-20T08:02:46Z" finished-at="2017-09-20T08:03:17Z">
+  <suite name="Suite" duration-ms="41842" started-at="2017-09-30T03:33:01Z" finished-at="2017-09-30T03:33:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31126" started-at="2017-09-20T08:02:46Z" finished-at="2017-09-20T08:03:17Z">
+    <test name="Test" duration-ms="41842" started-at="2017-09-30T03:33:01Z" finished-at="2017-09-30T03:33:43Z">
       <class name="com.Case.Authentic">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Case.Authentic@578486a3]" name="beforeSuite" is-config="true" duration-ms="3259" started-at="2017-09-20T16:02:43Z" finished-at="2017-09-20T16:02:46Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Case.Authentic@578486a3]" name="beforeSuite" is-config="true" duration-ms="3867" started-at="2017-09-30T11:32:58Z" finished-at="2017-09-30T11:33:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Authentic@578486a3]" name="BeforeClass" is-config="true" duration-ms="8606" started-at="2017-09-20T16:02:46Z" finished-at="2017-09-20T16:02:55Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.Case.Authentic@578486a3]" name="BeforeClass" is-config="true" duration-ms="19045" started-at="2017-09-30T11:33:01Z" finished-at="2017-09-30T11:33:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="case1()[pri:0, instance:com.Case.Authentic@578486a3]" name="case1" duration-ms="20544" started-at="2017-09-20T16:02:55Z" finished-at="2017-09-20T16:03:15Z">
+        <test-method status="PASS" signature="case1()[pri:0, instance:com.Case.Authentic@578486a3]" name="case1" duration-ms="19954" started-at="2017-09-30T11:33:21Z" finished-at="2017-09-30T11:33:40Z">
           <reporter-output>
             <line>
-              <![CDATA[在：2017-09-20 16:03:15:738执行用例：随机输入手机号码正常注册登录--->执行成功]]>
+              <![CDATA[在：2017-09-30 11:33:40:959执行用例：随机输入手机号码正常注册登录--->执行成功]]>
             </line>
           </reporter-output>
         </test-method> <!-- case1 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Authentic@578486a3]" name="afterClass" is-config="true" duration-ms="1968" started-at="2017-09-20T16:03:15Z" finished-at="2017-09-20T16:03:17Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Case.Authentic@578486a3]" name="afterClass" is-config="true" duration-ms="2834" started-at="2017-09-30T11:33:40Z" finished-at="2017-09-30T11:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Case.Authentic@578486a3]" name="afterSuite" is-config="true" duration-ms="40" started-at="2017-09-20T16:03:17Z" finished-at="2017-09-20T16:03:17Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Case.Authentic@578486a3]" name="afterSuite" is-config="true" duration-ms="35" started-at="2017-09-30T11:33:43Z" finished-at="2017-09-30T11:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

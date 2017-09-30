@@ -63,7 +63,22 @@ public class Base {
 		} else {
 			return false;
 		}
-
+	}
+	public static boolean isPlayXpath(String xpath) {
+		for (int i = 0; i <= 5; i++) {
+			if (isPlayBy(By.xpath(xpath))) {
+				break;
+			}
+			sleep(500);
+			if (i == 2) {
+				break;
+			}
+		}
+		if (isPlayBy(By.xpath(xpath))) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public static boolean isPlayById(String id) {
@@ -105,7 +120,19 @@ public class Base {
 	public static void click(WebElement el) {
 		el.click();
 	}
-
+    /**
+     * 通过不同的方式点击
+     */
+	public static WebElement el(String id){
+		if(isPlay(id)){
+			return findById(id);
+		}else if(isPlayXpath(id)){
+			return findByXpath(id);
+		}else{
+			print(id+"控件不存在");
+			return null;
+		}
+	}
 	/**
 	 * 不可以点击的强制点击
 	 */
@@ -242,6 +269,7 @@ public class Base {
 		WebElement el = waitAuto(id, 3);
 		if (flag) {
 			return el;
+		
 		} else {
 			print("控件：" + id + "不存在");
 			assertTrue(false, "等了3秒还找不到控件");
@@ -332,9 +360,31 @@ public class Base {
 		String pn = "137" + Integer.toString(i);
 		return pn;
 	}
+	
+	public static void out(){
+	String[][] b=new String[][]{
+			{Xml.read("welcome"),""},
+			{Xml.read("p_edt"),phoneNum()},
+			{Xml.read("sms_btn"),""},
+			{Xml.read("code_edt"),"1111"},
+			{Xml.read("loginbtn"),""}
+	};
+	for(String[] s:b){
+		System.out.println(s[0]+":"+s[1]);
+	}
+	}
+	public static void ClickandInput(String[][]s){
+		for(String[] t:s){
+			if(t[1]==""){
+				el(t[0]).click();
+			}else{
+				el(t[0]).sendKeys(t[1]);
+			}
+		}
+	}
 	public static void main(String[] args){
-		System.out.println( getInfo(i).get("deviceName"));
-		System.out.println(getInfo(i).get("platformVersion"));
-		
+//		System.out.println( getInfo(i).get("deviceName"));
+//		System.out.println(getInfo(i).get("platformVersion"));
+		out();
 	}
 }
